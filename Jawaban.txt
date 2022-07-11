@@ -1,0 +1,64 @@
+Nama : Edy Setiawan
+Alamat Email : wkeren35@gmail.com
+Waktu mulai : Senin 
+Waktu Selesai : Senin
+
+Jawaban:
+1. 
+#include <iostream>
+#include <stdio.h>
+ 
+using namespace std;
+
+int main(){
+	int var_data[3];
+	var_data1 = [1, 1, 1, 2, 2, 4, 1, 1 ];
+    var_data2 = [2, 1, 2, 2, 2, 8, 1, 1 ];
+    var_data3 = [3, 3, 3, 3, 2, 4, 1, 1 ];
+    
+    for(int i; i < 5; i++){
+    	printf("data paling banyak keluar", i, var_data[i]);
+	}
+	return 0;
+}
+
+2.
+#include <iostream>
+#include <stdio.h>
+ 
+using namespace std;
+
+3.
+Output 1
+#include <stdio.h>
+ 
+int main(void)
+{
+  for (int i = 1; i <= 6; i++) {
+    for (int j = 1; j <= i; j++) {
+      printf("* ");
+    }
+    printf("\n");
+  }
+  return 0;
+}
+
+Output 2
+#include <iostream>
+#include <stdio.h>
+ 
+using namespace std;
+
+int main(){
+	int size = 5;
+	
+	for(int row=1; row<=size; row++) {
+		for(int col=1; col<=size-row; col++){
+			cout <<" ";
+		}
+		for(int col=1; col<=row; col++){
+			cout <<"*";
+		}
+		cout <<"\n";
+	}
+}
